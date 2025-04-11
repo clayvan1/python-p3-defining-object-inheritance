@@ -1,4 +1,5 @@
-from vehicle import Vehicle
+from lib.vehicle import Vehicle # type: ignore
 
 class Car(Vehicle):
-    pass
+    def go(self):
+        return "VRRROOOOOOOOOOOOOOOOOOOOOOOM!!!!!"
